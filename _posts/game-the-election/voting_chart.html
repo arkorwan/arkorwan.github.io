@@ -1,0 +1,26 @@
+<div class="container" id="{{ include.chart_name }}" style="height:400px;"></div>
+<script type="text/javascript">
+    let {{ include.chart_name }} = new frappe.Chart( "#{{ include.chart_name }}", {
+data: {
+  labels: ["No Strategy", "Random", "Win/Lose", "Profit/Loss","Shift(5)"],
+  datasets: [
+    {
+      name: "Franchises",
+      values: {{ include.franchises_data }}
+    },
+    {
+      name: "Main",
+      values: {{ include.main_data }}
+    }
+  ]
+},
+
+barOptions: {
+  stacked: 1
+},
+valuesOverPoints: 1,
+type: 'bar',
+height: 400,
+colors: {{ include.colors }}
+});
+</script>
