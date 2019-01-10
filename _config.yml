@@ -3,13 +3,14 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name:  arkorwan.github.io
+title: arkorwan.github.io
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: it's going to be a bit lengthier here
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://pbs.twimg.com/profile_images/288769090/crop_400x400.PNG
 
 #
 # Flags below are optional
@@ -21,7 +22,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: 
+  github: arkorwan
   instagram:
   linkedin:
   pinterest:
