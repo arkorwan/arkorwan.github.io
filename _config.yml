@@ -10,7 +10,7 @@ title: arkorwan.github.io
 description: it's going to be a bit lengthier here
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://pbs.twimg.com/profile_images/288769090/crop_400x400.PNG
+avatar: /images/avatar.png
 
 #
 # Flags below are optional
@@ -38,7 +38,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-52447574-3
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
