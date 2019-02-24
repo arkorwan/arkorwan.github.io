@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Divide the Party, Conquer the Voting System?
+tags: [election-62, voting-system]
 embed_twitter: true
 frappecharts: true
 ---

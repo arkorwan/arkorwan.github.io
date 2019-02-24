@@ -11,13 +11,23 @@ applause: true
   </div>
 
   <div>
-	<div class="date" style="display: inline-block;">
- 	  บ่นไว้เมื่อ {{ page.date | date: "%Y-%m-%d" }}
+	  <div class="date" style="display: inline-block;">
+ 	    บ่นไว้เมื่อ {{ page.date | date: "%Y-%m-%d" }}
     </div>
 
     <applause-button style="width: 40px; height: 40px; float: right; display: inline-block;"/>
 
   </div>
+
+  <span> tags: [
+    {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr></a>
+      {% if forloop.last == false %}
+      |
+      {% endif %}
+    {% endfor %}
+  ]</span>
 
   {% include disqus.html %}
 </article>
