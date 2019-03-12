@@ -119,7 +119,17 @@ img[src*='#center'] {
     margin: auto;
 }
 
+img + em {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: $gray;
+  font-size: 14px;
+}
+
 table {
+  margin-left: auto;
+  margin-right: auto;
   padding: 0; }
   table tr {
     border-top: 1px solid #cccccc;

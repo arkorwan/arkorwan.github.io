@@ -1,0 +1,18 @@
+<div class="container" id="{{ include.chart_name }}" style="height:100px;"></div>
+<script type="text/javascript">
+    let {{ include.chart_name }} = new frappe.Chart( "#{{ include.chart_name }}", {
+data: {
+  labels: {{ include.labels }},
+  datasets: [
+    {
+      values: {{ include.data }}
+    }
+  ]
+},
+barOptions: {
+    depth: 0
+},
+type: 'percentage',
+colors: ['#d12340', '#703878', '#0f4daf']
+});
+</script>

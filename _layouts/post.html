@@ -15,7 +15,9 @@ applause: true
  	    บ่นไว้เมื่อ {{ page.date | date: "%Y-%m-%d" }}
     </div>
 
+    {% if jekyll.environment == "production" %}
     <applause-button style="width: 40px; height: 40px; float: right; display: inline-block;"/>
+    {% endif %}
 
   </div>
 
