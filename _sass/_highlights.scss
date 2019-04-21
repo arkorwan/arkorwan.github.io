@@ -7,11 +7,21 @@
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
-  overflow: scroll;
+  overflow: auto;
+}
+
+.highlight > pre {
+  background-color: #efefef;
+  padding: 0px 0px 0px 0px;
+  border: 0px solid #ddd;
+  box-shadow: 0px 0px rgba(0,0,0,0.1);
+  margin: 0 0 0 0;
+  overflow: auto;
 }
 
 code {
   font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-size: 14px
 }
 
 .highlight .c { color: #586E75 } /* Comment */
