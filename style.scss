@@ -335,12 +335,14 @@ footer {
   letter-spacing: 0.4em;
   display: inline-block;
   font-family: $mono;
-  font-size: 14px;
   color: $white;
   background-color: $darkGray;
 }
 .asciiart-container {
   text-align: center;
+  margin: auto;
+  color: $gray;
+  font-size: 14px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
