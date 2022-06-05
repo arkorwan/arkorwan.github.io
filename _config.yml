@@ -9,6 +9,8 @@ title: arkorwan.github.io
 # Short bio or description (displayed in the header)
 description: it's going to be a bit lengthier here
 
+excerpt_separator: <!--more-->
+
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/avatar.png
 
@@ -80,8 +82,7 @@ plugins:
 
 # Exclude these files from your production _site
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - docker-compose.yml
   - LICENSE
   - README.md
   - CNAME

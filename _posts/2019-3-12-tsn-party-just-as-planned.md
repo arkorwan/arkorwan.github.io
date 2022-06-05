@@ -10,6 +10,8 @@ frappecharts: true
 กระทั่งถูกตัดสินยุบพรรค ประเด็นว่าการยุบพรรคนั้นเหมาะสมแล้วหรือไม่เป็นเรื่องที่... controversial เอาเรื่องอยู่
 แต่เราจะไม่ไปแตะตรงนั้น มาดูกันที่ปฏิกิริยาหลังยุบดีกว่า ซึ่งมีบางเสียงบอกว่า ทั้งหมดนี้เนี่ย เฮียแม้ววางแผนไว้หมดแล้ว
 
+<!--more-->
+
 <blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="th" dir="ltr">นี่คิดเหมือนกันเลย</p>&mdash; เซเลบหม่อมสามหยอย® \7 #futurista (@toyubomm) <a href="https://twitter.com/toyubomm/status/1104589381199773697?ref_src=twsrc%5Etfw">March 10, 2019</a></blockquote>
 
 เฮ้ย นี่มันจะเทพเกินไปละมั้งงงง!
